@@ -1,5 +1,4 @@
 # Project Overview
-Here you will write a short description of your project.
 
 The goal of this project is to create a vibrant and engaging portfolio site that not only showcases my skills and projects but also serves as a demonstration of my proficiency in HTML elements and tags. Through this project, I aimed to reinforce my understanding of fundamental web development concepts and effectively apply them to replicate a visually appealing and functional portfolio.
 
