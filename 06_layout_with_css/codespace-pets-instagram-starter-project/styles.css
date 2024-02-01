@@ -26,17 +26,21 @@ img {
 .profile {
     height: 30%;
     display: grid;
-    grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5px;
     grid-template-rows: 70% 15% 15%;
+    grid-gap: 5px;
     grid-template-areas:
       "image stats stats"
       "bio bio bio"
       "settings settings settings";
+
+    
   }
   
   .profile-image {
     grid-area: image;
+    
   }
 
   .profile-image img {
