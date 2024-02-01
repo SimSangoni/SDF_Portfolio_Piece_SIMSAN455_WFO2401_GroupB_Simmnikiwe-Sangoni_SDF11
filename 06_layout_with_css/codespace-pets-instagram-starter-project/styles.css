@@ -26,9 +26,9 @@ img {
 .profile {
     height: 30%;
     display: grid;
-    grid-gap: 3px;
+    grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60% 20% 20%;
+    grid-template-rows: 60% 15% 25%;
     grid-template-areas:
       "image stats stats"
       "bio bio bio"
@@ -38,6 +38,14 @@ img {
   .profile-image {
     grid-area: image;
   }
+
+  .profile-image img {
+    height: 80%;
+    border-radius: 50%; /* Apply a circular border */
+    object-fit: cover;
+    border: 2px solid black; /* Add a solid black border */
+  }
+  
 
   .profile-stats {
     grid-area: stats;
