@@ -105,13 +105,21 @@ img {
     border: 2px solid black;
   }
 
-  .profile .settings {
-    grid-area: settings;
-    /* Add a Flexbox container inside the "settings" row */
-    /* display: flex; */
-    align-items: center;
-    justify-content: space-between; /* Adjust as needed */
+ /* Now I want to form another grid within the profile to space the buttons appropriately */
+
+ .profile-user-settings {
+    display: grid;
+    grid-template-columns: 45% 45% 10%; 
+    justify-content: space-around;
   }
+  
+  .btn {
+    width: 80%; 
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+  }
+  
 
   /* profile-image
      profile-user-settings
