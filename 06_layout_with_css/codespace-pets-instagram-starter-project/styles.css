@@ -28,7 +28,7 @@ img {
     display: grid;
     grid-gap: 5px;
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 60% 15% 25%;
+    grid-template-rows: 70% 15% 15%;
     grid-template-areas:
       "image stats stats"
       "bio bio bio"
