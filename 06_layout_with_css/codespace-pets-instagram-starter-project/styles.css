@@ -29,7 +29,7 @@ img {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-template-rows: 70% 15% 15%;
-    grid-gap: 10px;
+    grid-gap: 5px;
     grid-template-areas:
       "image stats stats"
       "bio bio bio"
@@ -52,7 +52,7 @@ img {
     border-radius: 50%; /* Apply a circular border */
     object-fit: cover;
     border: 2px solid black; /* Add a solid black border */
-    margin: 20px;
+    margin: 0 20px 20px 20px;
     /* align-items: center; 
     justify-content: center; */
   }
@@ -69,6 +69,13 @@ img {
     flex-direction: row;
     justify-content: space-around; /* Adjust as needed for spacing */
     align-items: center; /* Align items vertically in the center */
+  }
+
+  .profile-stats li {
+    display: flex; /* Set to flex container */
+    flex-direction: column;
+    text-align: center; /* Center text */
+    margin-top: 5px; /* Add some spacing between items */
   }
 
   .profile-bio {
