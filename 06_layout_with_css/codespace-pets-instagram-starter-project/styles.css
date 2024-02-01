@@ -21,3 +21,38 @@ body {
 img {
     display: block;
 }
+
+
+.profile {
+    height: 30%;
+    display: grid;
+    grid-gap: 3px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 60% 20% 20%;
+    grid-template-areas:
+      "image stats stats"
+      "bio bio bio"
+      "settings settings settings";
+  }
+  
+  .profile-image {
+    grid-area: image;
+  }
+
+  .profile-stats {
+    grid-area: stats;
+  }
+
+  .profile-bio {
+    grid-area: bio;
+  }
+
+  .profile-user-settings {
+    grid-area: settings;
+  }
+
+  /* profile-image
+     profile-user-settings
+     profile-stats
+     profile-bio
+    */
