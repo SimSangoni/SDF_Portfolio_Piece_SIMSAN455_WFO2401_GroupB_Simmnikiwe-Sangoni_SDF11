@@ -78,6 +78,11 @@ img {
     margin-top: 5px; /* Add some spacing between items */
   }
 
+  .profile-stat-count {
+  font-weight: bold;
+  font-size: 1.2em; 
+}
+
   .profile-bio {
     grid-area: bio;
     border: 2px solid black;
