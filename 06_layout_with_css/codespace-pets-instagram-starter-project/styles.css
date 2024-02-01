@@ -41,7 +41,7 @@ img {
   
   .profile-image {
     grid-area: image;
-    border: 2px solid black;
+    /* border: 2px solid black; */
     display: flex;
     flex-direction: column;
     
@@ -53,14 +53,12 @@ img {
     object-fit: cover;
     border: 2px solid black; /* Add a solid black border */
     margin: 0 20px 20px 20px;
-    /* align-items: center; 
-    justify-content: center; */
   }
   
 
   .profile-stats {
     grid-area: stats;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
   }
 
@@ -85,7 +83,7 @@ img {
 
   .profile-bio {
     grid-area: bio;
-    border: 2px solid black;
+    /* border: 2px solid black; */
 
   }
 
@@ -102,14 +100,14 @@ img {
 
   .profile-user-settings {
     grid-area: settings;
-    border: 2px solid black;
+    /* border: 2px solid black; */
   }
 
  /* Now I want to form another grid within the profile to space the buttons appropriately */
 
  .profile-user-settings {
     display: grid;
-    grid-template-columns: 45% 45% 10%; 
+    grid-template-columns: 44% 44% 12%; 
     justify-content: space-around;
   }
   
