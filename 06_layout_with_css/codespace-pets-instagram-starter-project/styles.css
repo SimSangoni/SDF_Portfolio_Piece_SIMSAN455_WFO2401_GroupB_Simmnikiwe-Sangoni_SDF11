@@ -28,9 +28,8 @@ img {
     height: 30%;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    grid-gap: 5px;
     grid-template-rows: 70% 15% 15%;
-    grid-gap: 5px;
+    grid-gap: 10px;
     grid-template-areas:
       "image stats stats"
       "bio bio bio"
@@ -41,27 +40,45 @@ img {
   
   .profile-image {
     grid-area: image;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: column;
     
   }
 
   .profile-image img {
-    height: 75%;
+    height: 70%;
     border-radius: 50%; /* Apply a circular border */
     object-fit: cover;
     border: 2px solid black; /* Add a solid black border */
+    margin: 20px;
+    /* align-items: center; 
+    justify-content: center; */
   }
   
 
   .profile-stats {
     grid-area: stats;
+    border: 2px solid black;
+    display: flex;
   }
 
   .profile-bio {
     grid-area: bio;
+    border: 2px solid black;
   }
 
   .profile-user-settings {
     grid-area: settings;
+    border: 2px solid black;
+  }
+
+  .profile .settings {
+    grid-area: settings;
+    /* Add a Flexbox container inside the "settings" row */
+    /* display: flex; */
+    align-items: center;
+    justify-content: space-between; /* Adjust as needed */
   }
 
   /* profile-image
