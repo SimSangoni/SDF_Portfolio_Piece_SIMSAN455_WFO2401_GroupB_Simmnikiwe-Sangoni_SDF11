@@ -34,6 +34,7 @@ img {
       "image stats stats"
       "bio bio bio"
       "settings settings settings";
+    align-items: center;
 
     
   }
@@ -60,7 +61,14 @@ img {
   .profile-stats {
     grid-area: stats;
     border: 2px solid black;
-    display: flex;
+
+  }
+
+  ul {
+    display: flex; /* Set to flex container */
+    flex-direction: row;
+    justify-content: space-around; /* Adjust as needed for spacing */
+    align-items: center; /* Align items vertically in the center */
   }
 
   .profile-bio {
