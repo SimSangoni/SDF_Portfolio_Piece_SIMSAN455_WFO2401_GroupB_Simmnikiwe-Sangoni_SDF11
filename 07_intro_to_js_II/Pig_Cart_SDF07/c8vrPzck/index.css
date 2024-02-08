@@ -1,0 +1,89 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+    background-color: #C0C0C0;
+    cursor: url("pig_cursor.png"), auto;
+    user-select: none;
+}
+
+/* h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: 900;
+    font-size: 40px;
+    color: #191970;
+} */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 320px;
+    margin: 30px auto;
+}
+
+img {
+    width: 150px;
+    margin: 0 auto;
+}
+
+input {
+    color: #C0C0C0;
+    background-color: #191970;
+    border: 1px solid #C0C0C0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+button {
+    color: #191970;
+    background-color:  #C0C0C0;
+    padding: 15px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+}
+
+button:hover {
+    color: #FF6F61;
+    background-color: #B76E79;
+    cursor: url('assets/pig_hover_cursor.png'), pointer;
+}
+
+ul {
+    display: flex;
+    gap: 30px 20px;
+    max-width: 400px;
+    flex-wrap: wrap;
+    font-size: 20px;
+    padding: 10px;
+    justify-content: center;
+    align-content: center;
+    color: #C0C0C0; 
+}
+
+ul li {
+    padding: 15px;
+    font-family: 'Rubik', sans-serif;
+    font-weight: bold;
+    background-color: white;
+    box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.2);
+    list-style: none;
+    flex-grow: 1;
+    text-align: center;
+    border-radius: 10px;  
+}
+
+ul li:hover {
+    color: #FF6F61;
+    background-color: #B76E79;
+    cursor:url('assets/pig_hover_cursor.png'), pointer;
+}
