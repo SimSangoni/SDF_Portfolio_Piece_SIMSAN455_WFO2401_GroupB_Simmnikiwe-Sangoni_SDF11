@@ -13,16 +13,16 @@
 </head>
 
 <body class="bg-gray-100">
-    <div class="container mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="mx-auto bg-white">
         <div 
             class="relative flex flex-wrap items-center justify-between w-full bg-white py-7 shrink-0">
-            <div>
+            <div class="px-4">
                 <img class="h-8"
                 src="https://loopple.s3.eu-west-3.amazonaws.com/images/6wjH3M3DDKVZrZYDViFptLEOoeHnZxEgC3lorweP.png"
                 >
             </div>   
 
-            <div class="hidden md:flex items-center justify-between gap-12 text-black  bg-white">
+            <div class="hidden px-4 md:flex items-center justify-between gap-12 text-black  bg-white">
                 <a 
                     href="javascript:void(0)" 
                     class="text-sm font-normal text-dark-grey-700 hover:bg-dark-grey-900">
@@ -45,7 +45,7 @@
                 </a>
             </div>
 
-            <div class="hidden md:flex items-center gap-8">
+            <div class="px-4 hidden md:flex items-center gap-8">
                 <button 
                     class="text-sm font-normal text-dark-grey-800 hover:text-dark-grey-900">Log In
                 </button>
@@ -54,18 +54,16 @@
                 </button>   
             </div>
             <!-- hamburger for mobile view -->
-            <button class="md:hidden" id="mobile-menu-toggle">
+            <button class="md:hidden p-4" id="mobile-menu-toggle">
                 <svg viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" stroke="currentColor" class="h-6 w-6">
                     <path d="M4 18L20 18" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
                     <path d="M4 12L20 12" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
                     <path d="M4 6L20 6" stroke="#000000" stroke-width="2" stroke-linecap="round"/>
                 </svg>
-
-
             </button>
             <div 
-                id="menu-item"
-                class= "absolute flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full">
+                id="mobile-menu"
+                class= "absolute px-4 flex md:hidden flex-col items-start shadow-main justify-center w-full gap-3 overflow-hidden bg-white max-h-screen top-full">
                 <a 
                     href="javascript:void(0)" 
                     class="text-sm font-normal text-dark-grey-700 hover:bg-dark-grey-900">
