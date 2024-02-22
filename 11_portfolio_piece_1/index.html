@@ -49,7 +49,8 @@
 
             <div class="px-4 hidden md:flex items-center gap-8">
                 <button 
-                    class="text-sm font-normal text-black">Log In
+                    class="text-sm font-normal text-black border-4 rounded-xl px-4 py-2 border-white hover:border-pink-500 hover:text-grey-900">
+                    Log In
                 </button>
                 <button 
                     class="px-4 py-2 text-sm font-bold text-blue bg-green-500 rounded-xl hover:bg-pink-500">Sign Up
@@ -87,7 +88,8 @@
                     Company
                 </a>
                 <button 
-                    class="flex items-center text-sm font-normal text-black">Log In
+                    class="flex items-center text-sm font-normal text-black border-4 border-white px-4 py-2 rounded-xl hover:bg-gray-100 hover:border-pink-500">
+                    Log In
                 </button>
                 <button 
                     class="flex items-center px-4 py-2 text-sm font-bold text-purple-600 bg-gray-100 rounded-xl hover:bg-pink-500 hover:text-black">Sign Up
@@ -97,7 +99,9 @@
         </div>  
 
         <!-- Component 2: Hero and Endorsements -->
-        <!-- HERO -->
+
+        <div>
+            <!-- HERO -->
 
         <section class="grid w-full grid-cols-1 my-auto mt-12 mb-8 md:grid-cols-2 xl:gap-14 md:gap-5 px-7">
             <div class="flex flex-col justify-center col-span-1 text-center lg:text-start">
@@ -110,10 +114,10 @@
                     help you take care of your cash.
                 </p>
                 <div class="flex flex-col items-center gap-4 lg:flex-row">
-                    <button class="flex items-center py-4 px-7 text-sm font-bold text-white bg-green-500 rounded-xl">
+                    <button class="flex items-center py-4 px-7 text-sm font-bold text-white bg-green-500 rounded-xl hover:bg-pink-500 hover:text-grey-900">
                         Join Cache Now
                     </button>
-                    <button class="flex items-center py-4 px-7 text-sm font-bold text-white bg-green-500 rounded-xl">
+                    <button class="flex items-center py-4 px-7 text-sm font-bold text-white bg-green-500 rounded-xl hover:bg-pink-500 hover:text-grey-900">
                         Join Our Discord Server
                     </button>
                 </div>
@@ -177,70 +181,84 @@
             </div>
         </section>
 
-        <div class="w-full">
-            <!-- Wide full-width container for additional content -->
         </div>
+        
+
 
         <!-- Services and Features -->
 
         <section class="container mx-auto">
-            <div>
-                <h2>
+            <div class="container flex flex-col items-center gap-2 mx-auto my-20">
+                <h2 class="text-2xl mb-8 text-center font-extrabold lg:text-4xl text-grey-900">
                     Elevate Your Banking With Cache
                 </h2>
-                <p>
+                <p class="text-center mb-2 text-dark-grey-600">
                     We merge cutting-edge banking with a deep understanding of software 
                     developers' needs. Experience tailored financial solutions, advanced security,
                     and tech-focused support designed just for you.
                 </p>
             </div>
-            <div>
-                <div>
-                    <h3>Developer-Focused Account Plans</h3>
-                    <p>
+            <!-- How do I make another element change when hovering over a seperate one? I.e. hover over
+            the container for services-then the text in container must change color -->
+            <div class="grid grid-cols-3 gap-8">
+                <div class=" shadow-lg col-span-1 rounded-xl bg-white hover:bg-pink-500 ">
+                    <h3 class="mb-2 text-center font-extrabold text-grey-900">
+                        Developer-Focused Account Plans
+                    </h3>
+                    <p class="text-center mb-2 text-dark-grey-600 hover:text-black">
                         Tailored accounts offering benefits like high-yield savings and
                         exclusive investment options, designed specifically for software developers'
                         financial needs and career growth.
                     </p>
                 </div>
 
-                <div>
-                    <h3>Advanced Online Banking Platform</h3>
-                    <p>
+                <div class="shadow-lg col-span-1 rounded-xl bg-white hover:bg-pink-500">
+                    <h3 class="mb-2 text-center font-extrabold text-grey-900">
+                        Advanced Online Banking Platform
+                    </h3>
+                    <p class="text-center mb-2 text-dark-grey-600 hover:text-black">
                         A cutting-edge, intuitive online banking interface with features like API
                         integrations, allowing developers to seamlessly manage finances alongside their 
                         coding projects.
                     </p>
                 </div>
-
-                <div>
-                    <h3>Tech-Savvy Customer Support</h3>
-                    <p>
+                
+                <div class="shadow-lg col-span-1 rounded-xl bg-white hover:bg-pink-500">
+                    <h3 class="mb-2 text-center font-extrabold text-grey-900">
+                        Tech-Savvy Customer Support
+                    </h3>
+                    <p class="text-center mb-2 text-dark-grey-600 hover:text-black">
                         Expert support team with a deep understanding of the tech industry, providing
                         relevant financial advice and assistance specifically for software developers.
                     </p>
                 </div>
 
-                <div>
-                    <h3>High-Level Security Features</h3>
-                    <p>
+                <div class="shadow-lg col-span-1 rounded-xl bg-white hover:bg-green-500">
+                    <h3 class="mb-2 text-center font-extrabold text-grey-900">
+                        High-Level Security Features
+                    </h3>
+                    <p class="text-center mb-2 text-dark-grey-600">
                         State-of-the-art cybersecurity measures, including multi-factor authentification
                         and encryption, ensuring the safety of digital assets, which is crucial for tech 
                         professionals.
                     </p>
                 </div>
 
-                <div>
-                    <h3>Innovative Financial Tools</h3>
-                    <p>
+                <div class="shadow-lg col-span-1 rounded-xl bg-white hover:bg-green-500">
+                    <h3 class="mb-2 text-center font-extrabold text-grey-900">
+                        Innovative Financial Tools
+                    </h3>
+                    <p class="text-center mb-2 text-dark-grey-600">
                         Access to unique financial tools and resources, like project funding accounts and tech startup
                         investment opportunities, catering to the entrepreneurial spirit of developers.
                     </p>
                 </div>
 
-                <div>
-                    <h3>Community and Networking Opportunities</h3>
-                    <p>
+                <div class="shadow-lg col-span-1 rounded-xl bg-white hover:bg-green-500">
+                    <h3 class="mb-2 text-center font-extrabold text-grey-900">
+                        Community and Networking Opportunities
+                    </h3>
+                    <p class="text-center mb-2 text-dark-grey-600">
                         Exclusive access to tech events, webinars and a community platform for networking,
                         collaboration, and sharing insights within the software development industry.
                     </p>
