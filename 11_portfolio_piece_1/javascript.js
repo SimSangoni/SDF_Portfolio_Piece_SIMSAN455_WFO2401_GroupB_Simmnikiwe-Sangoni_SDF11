@@ -10,7 +10,7 @@ var spanElement = document.getElementById('count-stat-2');
 var countToValue = spanElement.getAttribute('data-countto');
 
 var spanElement = document.getElementById('count-stat-3');
-var countToValue = spanElement.getAttribute('data-countto');
+var countToValue = parseInt(spanElement.getAttribute('data-countto')).toFixed(1);
 
 var spanElement = document.getElementById('count-stat-4');
 var countToValue = spanElement.getAttribute('data-countto');
